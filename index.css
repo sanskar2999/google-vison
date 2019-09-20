@@ -1,0 +1,65 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color: white;
+    opacity: 0.95;
+}
+.center{
+    background:#2a2e2b;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    font: 84px 'Arial Narrow', sans-serif;
+    color: #fefefe;
+    text-transform: uppercase;
+    letter-spacing: -4px;
+  }
+  
+  .logo span {
+    position: relative;
+  }
+  .logo span:before,
+  .logo span:after {
+    content: '';
+    position: absolute;
+    border-width: 32px;
+    border-style: solid;
+    border-color: transparent;
+    height: 0;
+    z-index: 10;
+  }
+  
+  .logo{
+    color: #dc006c;
+    margin-right: -38px;
+    transform: rotateY(180deg);
+    display: inline-block;
+    z-index: 10;
+  }
+  .logo:before {
+    right: -4px;
+    top: -9px;
+    border-top-color: #282828;
+    border-right-color: #282828;
+  }
+  .logo:after {
+    left: 17px;
+    bottom: -15px;
+    border-bottom-color: #282828;
+    border-left-color: #282828;
+  }
+  <!-- <%for(let i=0;i<data.length;i++) { %> 
+    <%=data[i].description %><br>
+<% } %> -->
